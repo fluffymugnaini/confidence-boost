@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;1,300&family=Reggae+One&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header {
+  
+background: rgb(249,248,113);
+background: linear-gradient(90deg, rgba(249,248,113,1) 54%, rgba(255,94,120,1) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+h1 {
+  color: #845ec2;
+  font-family: 'Newsreader', serif;
+}
+
+
+button.confidence-button {
+  color: #845ec2;
+  font-size: 1em;
+  background-color: #ffc75f;
+  font-family: inherit;
+  box-shadow: 9px 9px 9px #845ec2;
+}
+
+.confidence-button:hover {
+  color: #f5d782;
+  background-color: rgba(255, 94, 120, 0.5);
+  transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+input.input {
+  font-size: 1em;
+  font-family: inherit;
+}
+
+.main {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-family: 'Reggae One', cursive;
+  font-size: 2.2em;
+  border-bottom: 1px solid rgba(255,94,120,1);
+border-radius: 5%;
+padding-bottom: 15px;
+}
+
+.compliment {
+  background-color:rgba(255, 94, 120, 0.5);
+
+  padding: 15px 0;
+  color: #845ec2
+}
